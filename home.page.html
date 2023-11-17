@@ -1,0 +1,53 @@
+<ion-content [fullscreen]="true">
+    <h1 class="title">Sample Charts</h1>
+  
+    <div class="box box1">
+      <div class="details">
+        <h1>Bakal</h1>
+        <h2>Php 69/Kg</h2>
+      </div>
+  
+      <apx-chart
+        [chart]="options.chart"
+        [series]="options.series"
+        [stroke]="options.stroke"
+        [markers]="options.markers"
+        [grid]="options.grid"
+        [tooltip]="options.tooltip"
+        [colors]="options.colors"
+      ></apx-chart>
+    </div>
+    
+      <div class="box box2">
+        <div class="details">
+          <h1>Alloy</h1>
+          <h2>Php 69/Kg</h2>
+        </div>
+        <apx-chart
+          [chart]="options3.chart"
+          [series]="options3.series"
+          [stroke]="options3.stroke"
+          [markers]="options3.markers"
+          [grid]="options3.grid"
+          [tooltip]="options3.tooltip"
+          [colors]="options3.colors"
+        ></apx-chart>
+      </div>
+
+      <div class="box box3">
+        <div class="details">
+          <h1>Plastic</h1>
+          <h2>Php 69/Kg</h2>
+        </div>
+        <apx-chart
+          [chart]="plastics.chart"
+          [series]="plastics.series"
+          [stroke]="plastics.stroke"
+          [markers]="plastics.markers"
+          [grid]="plastics.grid"
+          [tooltip]="plastics.tooltip"
+          [colors]="plastics.colors"
+        ></apx-chart>
+      </div>
+
+  </ion-content>
